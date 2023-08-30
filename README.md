@@ -56,9 +56,9 @@ npm run build
 
 # Start the front and backend servers
 cd frontend
-npm run
+npm start
 cd ../backend
-npm run
+npm start
 ```
 
 ## Testing
@@ -86,6 +86,20 @@ jest
 - Discovery API: the Ticketmaster API which we used for the music events and details in the app
 - Google Maps API: Used for the maps on event info pages
 - MongoDB Atlas: Database used for storing user information, including encrypted log in info and liked events
+
+## Website Preview
+
+### Login
+![login image](frontend/public/login.png)
+
+### Feed
+![feed image](frontend/public/feed.png)
+
+### Saved Events
+![account image](frontend/public/account.png)
+
+### Event page
+![event image](frontend/public/event.png)
 
 ## Future Developments
 
